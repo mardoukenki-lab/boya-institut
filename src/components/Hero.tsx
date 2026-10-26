@@ -91,7 +91,7 @@ export default function Hero({
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.38, ease: 'easeOut' }}
-            className="mt-4 sm:mt-5 max-w-xl text-xs sm:text-sm md:text-base leading-relaxed text-neutral-800 font-medium px-2"
+            className="mt-4 sm:mt-5 max-w-xl text-[14px] sm:text-[15px] md:text-base leading-relaxed text-[#f9f9f9] font-semibold text-center px-5 py-2.5 rounded-2xl bg-black/45 backdrop-blur-md border border-white/20 shadow-xl drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]"
           >
             {subtext}
           </motion.p>

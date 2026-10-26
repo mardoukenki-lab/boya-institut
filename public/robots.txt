@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://institutboya.online/sitemap.xml
