@@ -56,6 +56,11 @@ export default function Footer({ onContactClick }: FooterProps) {
                   Incubation de Start-up
                 </a>
               </li>
+              <li>
+                <a href="#faq" className="hover:text-white transition-colors">
+                  Foire Aux Questions (FAQ)
+                </a>
+              </li>
             </ul>
           </div>
 

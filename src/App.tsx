@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import InstitutBoyaSections from './components/InstitutBoyaSections'
 import ContactModal from './components/ContactModal'
+import FAQAccordion from './components/FAQAccordion'
 import Footer from './components/Footer'
 import SplashCursor from './components/SplashCursor'
 import './index.css'
@@ -44,7 +45,7 @@ export default function App() {
       {/* Navbar Institut Boya */}
       <Navbar
         brand="Institut Boya"
-        links={['Expertises', 'Immobilier', 'Finance', 'Patrimoine', 'Incubation', 'Contact']}
+        links={['Expertises', 'Immobilier', 'Finance', 'Patrimoine', 'Incubation', 'FAQ', 'Contact']}
         onLinkClick={handleNavClick}
       />
 
@@ -66,6 +67,9 @@ export default function App() {
 
       {/* Les 4 domaines d'expertise et méthodologie */}
       <InstitutBoyaSections onOpenContact={handleOpenContact} />
+
+      {/* Foire Aux Questions (FAQ & Référencement) */}
+      <FAQAccordion onOpenContact={() => handleOpenContact('all')} />
 
       {/* Footer component with address, phone and email */}
       <Footer onContactClick={() => handleOpenContact('all')} />

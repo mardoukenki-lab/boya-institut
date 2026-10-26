@@ -78,7 +78,7 @@ export default function Hero({
           initial={{ opacity: 0, y: 22 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.22, ease: 'easeOut' }}
-          style={{ color: INK }}
+          style={{ color: '#d6cccc' }}
           className="m-0 font-['Inter',sans-serif] font-bold text-[1.85rem] xs:text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] leading-[1.12] tracking-tight max-w-3xl px-2 text-balance"
         >
           {headline}
