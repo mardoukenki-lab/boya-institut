@@ -342,25 +342,6 @@ export default function InstitutBoyaSections({ onOpenContact }: InstitutBoyaSect
           </div>
         </div>
       </section>
-
-      {/* Clean Professional Footer */}
-      <footer className="bg-black text-neutral-400 py-8 sm:py-10 px-4 sm:px-6 border-t border-neutral-900">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-5 text-center md:text-left text-xs">
-          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-3">
-            <span className="text-sm font-bold text-white tracking-tight">Institut Boya</span>
-            <span className="hidden sm:inline text-neutral-600">·</span>
-            <span className="text-neutral-400">Conseil, Finance & Patrimoine</span>
-          </div>
-          <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-neutral-400">
-            <a href="#expertises" className="hover:text-white transition-colors">Expertises</a>
-            <a href="tel:+2250757579862" className="hover:text-white transition-colors">+225 07 57 57 98 62</a>
-            <a href="mailto:direction@institutboya.online" className="hover:text-white transition-colors break-all sm:break-normal">direction@institutboya.online</a>
-          </div>
-          <p className="text-neutral-500 text-[11px] sm:text-xs">
-            © {new Date().getFullYear()} Institut Boya. Tous droits réservés.
-          </p>
-        </div>
-      </footer>
     </div>
   )
 }

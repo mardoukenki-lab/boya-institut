@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import InstitutBoyaSections from './components/InstitutBoyaSections'
 import ContactModal from './components/ContactModal'
+import Footer from './components/Footer'
 import SplashCursor from './components/SplashCursor'
 import './index.css'
 
@@ -65,6 +66,9 @@ export default function App() {
 
       {/* Les 4 domaines d'expertise et méthodologie */}
       <InstitutBoyaSections onOpenContact={handleOpenContact} />
+
+      {/* Footer component with address, phone and email */}
+      <Footer onContactClick={() => handleOpenContact('all')} />
 
       {/* Contact & Consultation Modal */}
       <ContactModal
