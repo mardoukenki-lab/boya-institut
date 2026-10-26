@@ -1,0 +1,8 @@
+{
+  "name": "Monsoon",
+  "description": "Monsoon resilient operations software and Institut Boya advisory platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
